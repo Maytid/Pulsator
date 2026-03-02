@@ -1,0 +1,45 @@
+{
+	"geode": "5.2.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "maytid.pulsator",
+	"name": "Pulsator",
+	"version": "v1.0.1",
+	"developer": "Maytid",
+	"description": "A mod that allows pulsation of player colors",
+	"tags": ["gameplay", "offline", "customization"],
+	"settings": {
+	    "speed": {
+    	    "name": "Pulse Speed",
+    	    "type": "float",
+    	    "default": 1.0,
+    	    "min": 0.1,
+    	    "max": 5.0,
+    	    "control": {
+    	        "slider": true
+    	    }
+    	},
+	    "enable-p1": { "name": "Enable P1 Easing", "type": "bool", "default": true },
+	    "p1-color1": { "name": "P1 Primary Color 1", "type": "color", "default": "#FF0000" },
+	    "p1-color2": { "name": "P1 Primary Color 2", "type": "color", "default": "#0000FF" },
+	    "p1-sec1": { "name": "P1 Secondary Color 1", "type": "color", "default": "#00FF00" },
+	    "p1-sec2": { "name": "P1 Secondary Color 2", "type": "color", "default": "#FFFF00" },
+	    "p1-wave1": { "name": "P1 Wave Trail 1", "type": "color", "default": "#FF0000" },
+	    "p1-wave2": { "name": "P1 Wave Trail 2", "type": "color", "default": "#0000FF" },
+	
+	    "enable-p2": { "name": "Enable P2 Easing", "type": "bool", "default": true },
+	    "p2-color1": { "name": "P2 Primary Color 1", "type": "color", "default": "#FF00FF" },
+	    "p2-color2": { "name": "P2 Primary Color 2", "type": "color", "default": "#00FFFF" },
+	    "p2-sec1": { "name": "P2 Secondary Color 1", "type": "color", "default": "#FFFFFF" },
+	    "p2-sec2": { "name": "P2 Secondary Color 2", "type": "color", "default": "#000000" },
+	    "p2-wave1": { "name": "P2 Wave Trail 1", "type": "color", "default": "#FF00FF" },
+	    "p2-wave2": { "name": "P2 Wave Trail 2", "type": "color", "default": "#00FFFF" }
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	}
+}
