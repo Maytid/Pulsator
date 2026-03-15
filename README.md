@@ -1,4 +1,4 @@
-#PULSATOR
+# PULSATOR
 
 The mod that allows you to pulsate/lerp their P1 and P2 colors!
 
