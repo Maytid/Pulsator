@@ -30,7 +30,7 @@ class $modify(MyPlayLayer, PlayLayer) {
         m_fields->m_time = std::fmod(m_fields->m_time, 3.14159f * 2.0f);
         float blend = (std::sin(m_fields->m_time * 3.0f) + 1.0f) / 2.0f;
 
-        // --- PLAYER 1 ---
+        //p1 stuff
         if (Mod::get()->getSettingValue<bool>("enable-p1") && this->m_player1) {
             auto p1_c1 = Mod::get()->getSettingValue<ccColor3B>("p1-color1");
             auto p1_c2 = Mod::get()->getSettingValue<ccColor3B>("p1-color2");
@@ -47,7 +47,7 @@ class $modify(MyPlayLayer, PlayLayer) {
             }
         }
 
-        // --- PLAYER 2 ---
+        //p2 stuff
         if (Mod::get()->getSettingValue<bool>("enable-p2") && this->m_player2) {
             auto p2_c1 = Mod::get()->getSettingValue<ccColor3B>("p2-color1");
             auto p2_c2 = Mod::get()->getSettingValue<ccColor3B>("p2-color2");
