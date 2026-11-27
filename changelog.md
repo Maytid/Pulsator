@@ -1,3 +1,6 @@
+# 1.0.2
+- Made compatible with GD 2.2091 & Geode 6.0.0
+
 # 1.0.1
 - Fixed android & windows compatibility
 
